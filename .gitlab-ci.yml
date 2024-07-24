@@ -2,6 +2,7 @@ include:
   - template: Auto-DevOps.gitlab-ci.yml
 
 variables:
+  SECRET_TOKEN: "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"
   SAST_EXCLUDED_PATHS: "frontend/src/assets/private/**"
   TEST_DISABLED: "true"
   DAST_DISABLED: "true"
